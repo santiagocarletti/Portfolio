@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Santiago Carletti</title>
+  <link rel="icon" href="cara.ico" type="image/x-icon">
+  <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+
+  <header>
+    <h3 style="text-align: left;">Santiago Carletti</h3>
+  </header>
+
+  <section class="uno">
+    <div>
+      <h2>Hola!</h2>
+      <p> Soy Santiago, estudiante de la Tecnicatura en Programación en la Universidad Tecnológica Nacional (FRGP) </p>
+    </div> <img class="cara" src="cara.png" alt="Santiago Carletti" />
+  </section>
+
+  <section class="dos">
+    <h2>Sobre mí</h2>
+    <p>
+      Antes de ingresar a la universidad, tomé cursos sobre Fundamentos de la Programación, C#, Programación Orientada a Objetos, .NET y SQL
+    </p>
+
+    <h2>Aptitudes</h2>
+    <p>Estas son algunas de las tecnologías de las que tengo conocimientos.</p>
+
+    <div class="aptitudes">
+      <div class="tecnologias">
+        <img src="csharplogo.png" class="tech" alt="cslogo" />
+        <img src="netlogo.png" class="tech" alt="netlogo" />
+        <img src="sqllogo.png" class="tech" alt="sqllogo" />
+      </div>
+    </div>
+  </section>
+
+  <section class="tres">
+    <h2>Proyectos y Contacto</h2>
+    <div class="proyectos">
+      <div class="card">
+        <h3>Catálogo</h3>
+        <img src="proyecto1.png" alt="Proyecto en GitHub" />
+        <p>
+          Este proyecto grupal fue realizado para la materia "Programación 3". Las herramientas utilizadas fueron GitHub, .NET, ADO .Net, C# y SQL Server.
+          Esta aplicación agrega, modifica y elimina artículos, así como las categorías y marcas correspondientes. Además permite filtrar búsqueda y cargar imágenes.
+        </p>
+        <a href="https://github.com/santiagocarletti/tp-winform-equipo-4a" target="_blank">Ver</a>
+      </div>
+      <div class="card">
+        <h3>LinkedIn</h3>
+        <img src="linkedinlogo.png" alt="LinkedIn" />
+        <p>Mi perfil en LinkedIn.</p>
+        <a href="https://www.linkedin.com/in/santiagocarletti/" target="_blank">Ver</a>
+      </div>
+      <div class="card">
+        <h3>GitHub</h3>
+        <img src="githublogo.jpeg" alt="GitHub" />
+        <p>
+          Mi perfil de GitHub el cual actualizo periódicamente con repositorios de mis proyectos a medida que los desarrollo.
+        </p>
+        <a href="https://github.com/santiagocarletti" target="_blank">Ver</a>
+      </div>
+    </div>
+  
+  <h2>Contacto</h2>
+  <form id="formulario">
+    <input type="text" id="name" placeholder="Nombre" required><br>
+    <input type="email" id="email" placeholder="Correo" required><br>
+    <textarea id="message" placeholder="Mensaje" required></textarea><br>
+    <button type="submit">Enviar</button>
+  </form>
+  
+  </section>
+
+  <script src="codigo.js"></script>
+
+</body>
+</html>
