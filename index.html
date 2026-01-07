@@ -1,83 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Santiago Carletti</title>
-  <link rel="icon" href="cara.ico" type="image/x-icon">
-  <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>Santiago Carletti</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
 
 </head>
+
+<style>
+
+</style>
+
 <body>
-
-  <header>
-    <h3 style="text-align: left;">Santiago Carletti</h3>
-  </header>
-
-  <section class="uno">
-    <div>
-      <h2>Hola!</h2>
-      <p> Soy Santiago, estudiante de la Tecnicatura en Programación en la Universidad Tecnológica Nacional (FRGP) </p>
-    </div> <img class="cara" src="cara.png" alt="Santiago Carletti" />
-  </section>
-
-  <section class="dos">
-    <h2>Sobre mí</h2>
-    <p>
-      Antes de ingresar a la universidad, tomé cursos sobre Fundamentos de la Programación, C#, Programación Orientada a Objetos, .NET y SQL
-    </p>
-
-    <h2>Aptitudes</h2>
-    <p>Estas son algunas de las tecnologías de las que tengo conocimientos.</p>
-
-    <div class="aptitudes">
-      <div class="tecnologias">
-        <img src="csharplogo.png" class="tech" alt="cslogo" />
-        <img src="netlogo.png" class="tech" alt="netlogo" />
-        <img src="sqllogo.png" class="tech" alt="sqllogo" />
-      </div>
-    </div>
-  </section>
-
-  <section class="tres">
-    <h2>Proyectos y Contacto</h2>
-    <div class="proyectos">
-      <div class="card">
-        <h3>Catálogo</h3>
-        <img src="proyecto1.png" alt="Proyecto en GitHub" />
+    <header>
+        <h3>Santiago Carletti - Backend Developer (.NET)</h3>
+    </header>
+    <section class="uno">
+        <div class="caja-central">
+            <div class="caja-cara">
+                <img class="cara" src="cara.png" alt="Maxi Programa">
+            </div>
+            <div class="caja-presentacion">
+                <div>
+                    <p class="presentacion">
+                        Advanced programming student focused on backend development using C#, .NET, and SQL Server. 
+                        I am looking for my first job in IT to apply my knowledge, learn in a professional environment, and contribute value to the team.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dos">
+        <h2>About me</h2>
         <p>
-          Este proyecto grupal fue realizado para la materia "Programación 3". Las herramientas utilizadas fueron GitHub, .NET, ADO .Net, C# y SQL Server.
-          Esta aplicación agrega, modifica y elimina artículos, así como las categorías y marcas correspondientes. Además permite filtrar búsqueda y cargar imágenes.
+            I am a student of the University Technical Degree in Programming, close to graduation, with training focused on backend development.
+            I mainly work with C#, .NET, and SQL Server, developing applications with business logic, data creation, reading, updating and deletion operations, and relational database persistence.
+            I have experience in academic projects versioned with Git and GitHub, and I am interested in joining a team where I can continue learning and contribute from day one.
         </p>
-        <a href="https://github.com/santiagocarletti/tp-winform-equipo-4a" target="_blank">Ver</a>
-      </div>
-      <div class="card">
-        <h3>LinkedIn</h3>
-        <img src="linkedinlogo.png" alt="LinkedIn" />
-        <p>Mi perfil en LinkedIn.</p>
-        <a href="https://www.linkedin.com/in/santiagocarletti/" target="_blank">Ver</a>
-      </div>
-      <div class="card">
-        <h3>GitHub</h3>
-        <img src="githublogo.jpeg" alt="GitHub" />
-        <p>
-          Mi perfil de GitHub el cual actualizo periódicamente con repositorios de mis proyectos a medida que los desarrollo.
-        </p>
-        <a href="https://github.com/santiagocarletti" target="_blank">Ver</a>
-      </div>
-    </div>
-  
-  <h2>Contacto</h2>
-  <form id="formulario">
-    <input type="text" id="name" placeholder="Nombre" required><br>
-    <input type="email" id="email" placeholder="Correo" required><br>
-    <textarea id="message" placeholder="Mensaje" required></textarea><br>
-    <button type="submit">Enviar</button>
-  </form>
-  
-  </section>
+        <h2>Skills</h2>
+        <p>Technologies and tools I have worked with in academic projects.</p>
 
-  <script src="codigo.js"></script>
+        <div class="skills-chips">
 
-</body>
-</html>
+            <p class="skill-row"><strong>Backend:</strong>
+                <span class="chip">C#</span>
+                <span class="chip">ASP.NET MVC (basic)</span>
+                <span class="chip">ASP.NET WebForms</span>
+                <span class="chip">SQL Server</span>
+            </p>
+
+            <p class="skill-row"><strong>Databases:</strong>
+                <span class="chip">SQL Server</span>
+                <span class="chip">MongoDB (introductory)</span>
+            </p>
+
+            <p class="skill-row"><strong>Other languages:</strong>
+                <span class="chip">C++</span>
+            </p>
+
+            <p class="skill-row"><strong>Tools:</strong>
+                <span class="chip">Git</span>
+                <span class="chip">GitHub</span>
+                <span class="chip">Visual Studio</span>
+            </p>
+
+        </div>
+
+        <h2>Courses and Additional Training</h2>
+        <ul>
+            <li>Programming Fundamentals · University Level · Maxi Programa · 2022 </li>
+            <li>C# Programming · Level 1 · Maxi Programa · 2022 <a href="temario1.pdf">Course contents</a></li>
+            <li>C# Programming · Level 2: Object-Oriented Programming + .NET + SQL · Maxi Programa · 2022 <a href="temario2.pdf">Course contents</a></li>
+            <li>University Technical Degree in Programming · UTN · Close to graduation <a href="https://www.frgp.utn.edu.ar/carreras/tup_tuss">Official page</a></li>
+        </ul>
+        
+    </section>
+    <section class="tres">
+            <h2>Projects & contact</h2>
+
+            <div class="card featured-card">
+                <h3>Restaurant Ordering System</h3>
+
+            <div class="featured-images">
+                <img src="Restaurant1.png" alt="ImgLogin">
+                <img src="Restaurant2.png" alt="ImgAreas">
+                <img src="Restaurant3.png" alt="ImgCombos">
+            </div>
+
+                <p>
+                    Web application developed in C# and ASP.NET WebForms for managing restaurant orders, including configurable combos, individual item customization, 
+                    comments and modifications, with full order persistence in a relational database. The project focuses on business logic, state management, and 
+                    accurate handling of real-world ordering flows.
+                </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        <span class="chip">C#</span>
+                        <span class="chip">ASP.NET WebForms</span>
+                        <span class="chip">SQL Server</span>
+                        <span class="chip">ADO.NET</span>
+                    </p>
+
+                <div class="project-links">
+                    <a href="https://github.com/santiagocarletti/tpc-equipo-4a" target="_blank">View on GitHub</a>
+                    <a href="https://github.com/santiagocarletti/tpc-equipo-4a/blob/main/README.txt" target="_blank">View README</a>
+                </div>
+
+            </div>
+
+            <div class="proyectos">
+                <div class="card">
+                    <h3>Catalog</h3>
+                    <img src="proyecto1.png" alt="Proyecto en GitHub">
+                    <p>
+                        This project was developed for the “C# Programming · Level 2” course.
+                        The tools used include GitHub, .NET, ADO.NET, C#, and SQL Server.
+
+                        The application allows adding, updating, and deleting items, as well as managing their corresponding categories and brands.
+                        It also supports search filtering and image upload, either locally or via URL.
+                    </p>
+                    <a href="https://github.com/santiagocarletti/C-Sharp-Curso-Nivel-2-.Net-SQL/tree/main/Trabajo%20Pr%C3%A1ctico%20Integrador" target="_blank">View on GitHub</a>
+                </div>
+                <div class="card">
+                    <h3>LinkedIn</h3>
+                    <img src="linkedinlogo.png" alt="LinkedIn">
+                    <p>
+                        Feel free to reach out via LinkedIn.
+                    </p>
+                    <a href="https://www.linkedin.com/in/santiagocarletti/" target="_blank">View</a>
+                </div>
+                <div class="card">
+                    <h3>GitHub</h3>
+                    <img src="githublogo.jpeg" alt="GitHub">
+                    <p>
+                        My GitHub profile, where I regularly update repositories with my projects and academic work.
+                    </p>
+                    <a href="https://github.com/santiagocarletti" target="_blank">View</a>
+                </div>
+            </div>
+        </section>
+    </body>
+    </html>
